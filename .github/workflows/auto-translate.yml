@@ -6,6 +6,7 @@ on:
     paths:
       - 'docs/zh/**'
       - '.github/workflows/auto-translate.yml'
+    workflow_dispatch:
 
 permissions:
     contents: write
